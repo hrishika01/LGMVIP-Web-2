@@ -1,14 +1,22 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
-  
   h1 {
     font-size: 30px;
     margin-top: 15px;
+    color:white;
   }
-  
+  h2,h3{
+    color:white
+  }
   header {
     display: flex;
     justify-content: space-between;
@@ -48,7 +56,7 @@
     font-family: "Candara", sans-serif;
     width: 340px;
     overflow: hidden;
-    background: rgb(208, 13, 46);
+    background: rgb(77, 21, 231);
     box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.8);
     display: inline-block;
     flex-direction: column;
